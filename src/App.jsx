@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import WelcomeSection from "./components/WelcomeSection";
-import StatCards from "./components/StatCards";
+import Dashboard from "./components/Dashboard";
+import StatsCards from "./components/StatsCards";
 import Filter from"./components/Filter";
 import UserTable from"./components/UserTable";
 import Pagination from "./components/Pagination";
@@ -12,10 +13,11 @@ function App () {
       <Navbar/> 
       <main className="container mx-auto p-6">
         <WelcomeSection/>
-        <StatCards/>
-        <Filter/>
-        <UserTable/>
-        <Pagination/>
+        {/*<StatsCards/>*/}
+        <Dashboard/>
+       {/* <Filter/>*/}
+        {/*<UserTable/>*/}
+        {/*<Pagination/>*/}
 
       </main>
       <Footer/>
