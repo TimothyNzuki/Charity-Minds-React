@@ -18,7 +18,7 @@ function App () {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/register" element={<RegisterPage/>} />
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<Dashboard/>} />
       </Routes>
       <main className="container mx-auto p-6">
